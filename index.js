@@ -655,7 +655,7 @@ app
       version: "1.0.2",
       name: "Torrentleech Addon",
       description: "Movie & TV Streams from Solid Torrents",
-      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3rgndsSZo5RmTgC_Vv0xo8Ea5vlv2Ojx5e3IMahlLz05hm2XlpBxa-no1sqiRIziYIBI&usqp=CAU",
+      logo: "https://digiseller.ru/preview/303585/p1_1822328_1d062ab3.jpg",
       resources: [
         {
           name: "stream",
