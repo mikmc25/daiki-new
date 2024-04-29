@@ -515,7 +515,7 @@ let fetchTorrent = async (query, type = "series") => {
 
   let url = `${
     hostdata.host
-  }/api/v2.0/indexers/torrentleech/results/torznab/api?apikey=${
+  }/api/v2.0/indexers/torrentday/results/torznab/api?apikey=${
     hostdata.apiKey
   }&${
     type == "series" ? "t=tvsearch" : type == "movie" ? "t=movie" : ""
