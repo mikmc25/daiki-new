@@ -428,8 +428,8 @@ let torrent_results = [];
 
 const hosts = [
   {
-    host: "http://45.154.87.102:9117",
-    apiKey: "tj4qjdv81b3ek9luydclixkvkourhbqb",
+    host: "http://108.218.31.111:9117",
+    apiKey: "fop98wug5tn8vbek4mgiiyzukbw2kwpu",
   },
   {
     host: "http://163.172.89.194:9117",
@@ -444,18 +444,10 @@ const hosts = [
     apiKey: "dkkgc3sfj5j7d6zs51jbuzxab6vqy00u",
   },
   {
-    host: "http://108.218.31.111:9117",
-    apiKey: "fop98wug5tn8vbek4mgiiyzukbw2kwpu",
-  },
-  {
     host: "http://136.243.46.122:9117",
     apiKey: "45werolukdfgyi3hsl7vllkwoytwxpkk",
   },
-  {
-    host: "http://195.154.176.233:9117",
-    apiKey: "wditbmg7gimijom3ayxdicceshdbl7ou",
-  },
-];
+  ];
 
 let fetchTorrent = async (query, type = "series") => {
   let hostdata = hosts[Math.floor(Math.random() * hosts.length)];
@@ -466,9 +458,9 @@ let fetchTorrent = async (query, type = "series") => {
     type == "series"
       ? "&Category%5B%5D=5000"
       : type == "movie"
-      ? "&Category%5B%5D=2040"
+      ? "&Category%5B%5D=2000"
       : ""
-  }&Category%5B%5D=2045&Category%5B%5D=2050&Category%5B%5D=2080&Category%5B%5D=5040&Category%5B%5D=5080&Tracker%5B%5D=torrentleech&cache=false`;
+  }&Category%5B%5D=2040&Category%5B%5D=2045&Category%5B%5D=2050&Category%5B%5D=2080&Category%5B%5D=5040&Category%5B%5D=5080&Tracker%5B%5D=torrentleech&cache=false`;
 
   return await fetch(url, {
     headers: {
