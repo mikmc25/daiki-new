@@ -651,11 +651,11 @@ app
 
     //
     var json = {
-      id: "daiki.jackettrdygg.stream",
+      id: "daiki.jackettrdptm.stream",
       version: "1.0.2",
-      name: "Solid Torrents Addon",
+      name: "PTM Addon",
       description: "Movie & TV Streams from Solid Torrents",
-      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3rgndsSZo5RmTgC_Vv0xo8Ea5vlv2Ojx5e3IMahlLz05hm2XlpBxa-no1sqiRIziYIBI&usqp=CAU",
+      logo: "https://www.userlogos.org/files/logos/misticx/xjhi7yg7_1.jpg",
       resources: [
         {
           name: "stream",
